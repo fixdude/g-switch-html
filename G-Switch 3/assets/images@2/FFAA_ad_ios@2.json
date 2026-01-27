@@ -1,0 +1,20 @@
+{"frames": [
+
+{
+	"filename": "FFAA_ad_ios.png",
+	"frame": {"x":3,"y":3,"w":1240,"h":930},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1240,"h":930},
+	"sourceSize": {"w":1240,"h":930}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "FFAA_ad_ios@2.png",
+	"format": "RGBA8888",
+	"size": {"w":1246,"h":936},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c8dd7364118a97cee351ce83b1ac227a:a9b01d856f052ecffbf262507a1ccdf9:664b1804567404316c02fbb5e9135e51$"
+}
+}
