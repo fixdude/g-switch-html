@@ -1,0 +1,20 @@
+{"frames": [
+
+{
+	"filename": "age_query.png",
+	"frame": {"x":3,"y":3,"w":628,"h":662},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":628,"h":662},
+	"sourceSize": {"w":628,"h":662}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "age_query@2.png",
+	"format": "RGBA8888",
+	"size": {"w":668,"h":634},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3f8002b47a74d49354956347e28fea77:9e20b7fbbe44091142266aaa8e3aacd0:b972649a61bfb8c4a6c4fe7180f9e944$"
+}
+}

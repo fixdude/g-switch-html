@@ -1,0 +1,108 @@
+{"frames": [
+
+{
+	"filename": "ads_less_de.png",
+	"frame": {"x":953,"y":3,"w":987,"h":91},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":987,"h":91},
+	"sourceSize": {"w":987,"h":91}
+},
+{
+	"filename": "ads_less_en-US.png",
+	"frame": {"x":858,"y":3,"w":987,"h":91},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":987,"h":91},
+	"sourceSize": {"w":987,"h":91}
+},
+{
+	"filename": "ads_less_es-ES.png",
+	"frame": {"x":763,"y":3,"w":987,"h":91},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":987,"h":91},
+	"sourceSize": {"w":987,"h":91}
+},
+{
+	"filename": "ads_less_fr-FR.png",
+	"frame": {"x":668,"y":3,"w":987,"h":91},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":987,"h":91},
+	"sourceSize": {"w":987,"h":91}
+},
+{
+	"filename": "ads_less_it.png",
+	"frame": {"x":573,"y":3,"w":987,"h":91},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":987,"h":91},
+	"sourceSize": {"w":987,"h":91}
+},
+{
+	"filename": "ads_less_ja.png",
+	"frame": {"x":478,"y":3,"w":987,"h":91},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":987,"h":91},
+	"sourceSize": {"w":987,"h":91}
+},
+{
+	"filename": "ads_less_ko.png",
+	"frame": {"x":383,"y":3,"w":987,"h":91},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":987,"h":91},
+	"sourceSize": {"w":987,"h":91}
+},
+{
+	"filename": "ads_less_pt-BR.png",
+	"frame": {"x":288,"y":3,"w":987,"h":91},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":987,"h":91},
+	"sourceSize": {"w":987,"h":91}
+},
+{
+	"filename": "ads_less_pt-PT.png",
+	"frame": {"x":193,"y":3,"w":987,"h":91},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":987,"h":91},
+	"sourceSize": {"w":987,"h":91}
+},
+{
+	"filename": "ads_less_ru.png",
+	"frame": {"x":98,"y":3,"w":987,"h":91},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":987,"h":91},
+	"sourceSize": {"w":987,"h":91}
+},
+{
+	"filename": "ads_less_zh-CH.png",
+	"frame": {"x":3,"y":3,"w":987,"h":91},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":987,"h":91},
+	"sourceSize": {"w":987,"h":91}
+},
+{
+	"filename": "close_button_coverup.png",
+	"frame": {"x":1048,"y":3,"w":93,"h":89},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":93,"h":89},
+	"sourceSize": {"w":93,"h":89}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "ads_less_message@2.png",
+	"format": "RGBA8888",
+	"size": {"w":1140,"h":993},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b8b62180f142ae3a5433608df60c2d1b:9534a62470d4cb7838d543d709b41c3d:efe060c2e198ad72799af74cd87d8ff6$"
+}
+}
