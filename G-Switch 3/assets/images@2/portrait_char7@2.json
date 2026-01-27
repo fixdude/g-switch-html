@@ -1,0 +1,20 @@
+{"frames": [
+
+{
+	"filename": "portrait_char7.png",
+	"frame": {"x":3,"y":3,"w":306,"h":440},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":306,"h":440},
+	"sourceSize": {"w":306,"h":440}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "portrait_char7@2.png",
+	"format": "RGBA8888",
+	"size": {"w":312,"h":446},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a8168dc8c568fe59fc0f64bda973c05d:724cf73866740c6460dca42ca055fa3c:8f0a7e8fa75ca115e1e09defc1d65960$"
+}
+}
