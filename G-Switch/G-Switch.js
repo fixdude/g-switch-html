@@ -14171,34 +14171,8 @@ $jscomp.polyfill("String.prototype.endsWith", function(P) {
             n.onSafari ? h.sound.playMusic("assets/music/menu.m4a") : h.sound.playMusic("assets/music/menu.ogg")
         },
         playInterstitialAd: function(a) {
-            n.preAdSoundVolume = h.sound.defaultSoundGroup.volume;
-            n.preAdMusicVolume = h.sound.defaultMusicGroup.volume;
-            h.sound.defaultSoundGroup.set_volume(0);
-            h.sound.defaultMusicGroup.set_volume(0);
-            n.inGameplayBeforeFocusLost = n.inGameplay;
-            n.prevInGameplayBeforeFocusLost = n.prevInGameplay;
-            n.inGameplay = !1;
-            n.prevInGameplay = !1;
-            n.playingAd = !0;
-            PokiSDK.commercialBreak().then(function() {
-                n.adFinished = !0
-            })
         },
         playRewardedAd: function() {
-            n.preAdSoundVolume = h.sound.defaultSoundGroup.volume;
-            n.preAdMusicVolume = h.sound.defaultMusicGroup.volume;
-            h.sound.defaultSoundGroup.set_volume(0);
-            h.sound.defaultMusicGroup.set_volume(0);
-            n.inGameplayBeforeFocusLost = n.inGameplay;
-            n.prevInGameplayBeforeFocusLost = n.prevInGameplay;
-            n.inGameplay = !1;
-            n.prevInGameplay = !1;
-            n.playingAd = !0;
-            PokiSDK.rewardedBreak().then(function(a) {
-                a && (n.avag = !0);
-                a && (n.assAvag = !0);
-                n.adFinished = !0
-            })
         },
         onFocus: function() {
             n.inGameplayBeforeFocusLost && PokiSDK.gameplayStart();
@@ -15148,38 +15122,8 @@ $jscomp.polyfill("String.prototype.endsWith", function(P) {
             return "00" == I.substr(a, a.length - c, null) ? I.substr(a, 0, a.length - c) : I.substr(a, 0, a.length - c) + "." + I.substr(a, a.length - c, null)
         },
         playInterstitialAd: function(a) {
-            n.preAdSoundVolume = h.sound.defaultSoundGroup.volume;
-            n.preAdMusicVolume = h.sound.defaultMusicGroup.volume;
-            h.sound.defaultSoundGroup.set_volume(0);
-            h.sound.defaultMusicGroup.set_volume(0);
-            n.inGameplayBeforeFocusLost = n.inGameplay;
-            n.prevInGameplayBeforeFocusLost = n.prevInGameplay;
-            n.inGameplay = !1;
-            n.prevInGameplay = !1;
-            n.playingAd = !0;
-            PokiSDK.commercialBreak().then(function() {
-                n.adFinished = !0;
-                n.inGameplay = !0;
-                n.inGameplayBeforeFocusLost = !0
-            })
         },
         playRewardedAd: function() {
-            n.preAdSoundVolume = h.sound.defaultSoundGroup.volume;
-            n.preAdMusicVolume = h.sound.defaultMusicGroup.volume;
-            h.sound.defaultSoundGroup.set_volume(0);
-            h.sound.defaultMusicGroup.set_volume(0);
-            n.inGameplayBeforeFocusLost = n.inGameplay;
-            n.prevInGameplayBeforeFocusLost = n.prevInGameplay;
-            n.inGameplay = !1;
-            n.prevInGameplay = !1;
-            n.playingAd = !0;
-            PokiSDK.rewardedBreak().then(function(a) {
-                a && (n.avag = !0);
-                a && (n.assAvag = !0);
-                n.adFinished = !0;
-                n.inGameplay = !0;
-                n.inGameplayBeforeFocusLost = !0
-            })
         },
         onFocus: function() {
             n.inGameplayBeforeFocusLost && PokiSDK.gameplayStart();
