@@ -1,0 +1,1 @@
+var n=()=>{};var np = ()=>{return {then:()=>{return{catch:n}}}};window.PokiSDK=new class{#e=[];gameLoadingStart=n;gameLoadingProgress=n;gameLoadingFinished=n;init=np;rewardedBreak=np;commercialBreak=np;displayAd=n;withArguments=n;withPromise=n;handleAutoResolvePromise=n;throwNotLoaded=n;setDebug=n;doNothing=n;gameplayStart=n;gameplayStop=n};
