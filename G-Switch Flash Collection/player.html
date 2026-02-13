@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+
+	<title>G-Switch Flash Collection</title>
+	
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	
+	<link rel="shortcut icon" type="image/png" href="./favicon.png">
+	
+	<link rel="stylesheet" href="./style.css">
+	
+	<script>
+		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
+		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2)
+		{
+			var meta = document.getElementById ("viewport");
+			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+		}
+	</script>
+	<noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this page.</noscript>
+	
+</head>
+<body>
+	<div id="container" style="width: 100vw; height: 100vh; margin-left: 0px; margin-top: 0px; background-color: black;"></div>
+	
+	<script>
+		window.RufflePlayer = window.RufflePlayer || {};
+		window.addEventListener("load", (event) => {
+			const ruffle = window.RufflePlayer.newest();
+			window.RufflePlayer.config.splashScreen = false;
+			const player = ruffle.createPlayer();
+			const container = document.getElementById("container");
+			const searchParams = new URLSearchParams(window.location.search);
+			const game = searchParams.get("game");
+			
+			const sepInd = game.indexOf("/");
+			if (sepInd !== -1)
+				document.title = "GSFC: " + game.substring(sepInd + 1);
+			
+			container.style.width = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+			container.style.height = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+			
+			player.config.letterbox = "on";
+			player.config.forceScale = false;
+			player.config.autoplay = "on";
+			player.config.unmuteOverlay = "hidden";
+			
+			container.appendChild(player);
+
+			player.style.width = "100%"; 
+			player.style.height = "100%";
+			player.ruffle().load({
+				url: "./swf/" + game + ".swf",
+				allowScriptAccess: false,
+			});
+			
+		});
+	</script>
+	<script src="./ruffle/ruffle.js"></script>
+</body>
+</html>
